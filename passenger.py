@@ -2,7 +2,8 @@ import csv
 import sys
 import pandas as pd
 
-#create class for re-usability
+#create class for re-usability 
+#This class can be called by using from passenger import PASSENGER
 class PASSENGER:
     
     def __init__(self, file_path, colnames):
